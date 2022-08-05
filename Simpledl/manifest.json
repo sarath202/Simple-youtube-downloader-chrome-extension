@@ -1,0 +1,20 @@
+{
+  "name": "Simple Youtube Downloader",
+  "description": "Download youtube videos simpler than before.",
+  "version": "0.1",
+  "author": "Goka Sarath kumar",
+  "manifest_version": 3,
+  "icons": { 
+    "12": "12.png",
+    "16": "16.png",
+    "48": "48.png",
+    "64": "64.png",
+    "128": "128.png"
+},
+  "content_scripts": [
+{
+    "matches": ["https://www.youtube.com/watch*"],
+    "js": ["src/loader.js"]
+}
+]
+}
